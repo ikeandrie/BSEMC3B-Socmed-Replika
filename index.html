@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/tiktok-icon.avif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link href="./styles/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/components/navbar.css" />
+    <link href="./styles/components/prof-sec.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/components/sidebar.css" />
+    <link href="./styles/utils.css" rel="stylesheet" />
+    <title>BSIT3 Website Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container">
+        <div class="nav__logo wrapper">
+          <img class="logo-icon" src="public/logo-icon.png" alt="tiktok icon" />
+          <img class="logo-text" src="public/logo.png" alt="tiktok logo" />
+        </div>
+        <div class="hrl-block flex-2"></div>
+        <div class="nav__searchbar">
+          <span class="searchbar__text">Search</span>
+          <div class="hrl-block"></div>
+          <svg
+            class="searchbar__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <div class="hrl-block"></div>
+        <button class="nav__upload wrapper">
+          <svg
+            class="upload__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"
+            />
+          </svg>
+          <span class="upload__text">Upload</span>
+        </button>
+        <div class="nav__profile wrapper">
+          <img class="profile-messages" src="./public/messages.PNG" alt="" />
+          <img class="profile-inbox" src="./public/inbox.PNG" alt="" />
+          <div class="profile-pic"></div>
+        </div>
+      </div>
+      <hr class="blend-seperator" />
+    </header>
+
+    <main class="wrapper">
+      <section class="sidebar">
+        <div class="nav__sidebar wrapper">
+          <button class="sidebar__link wrapper">
+            <img src="./public/foryou.PNG" alt="" />
+            <a class="link__text" href="">For&nbsp;You</a>
+          </button>
+          <button class="sidebar__link wrapper">
+            <img src="./public/following.PNG" alt="" />
+            <a class="link__text" href="">Following</a>
+          </button>
+          <button class="sidebar__link wrapper">
+            <img src="./public/friends.PNG" alt="" />
+            <a class="link__text" href="">Friends</a>
+          </button>
+          <button class="sidebar__link wrapper">
+            <img src="./public/explore.PNG" alt="" />
+            <a class="link__text" href="">Explore</a>
+          </button>
+          <button class="sidebar__link wrapper">
+            <img src="./public/live.PNG" alt="" />
+            <a class="link__text" href="">LIVE</a>
+          </button>
+          <button class="sidebar__link wrapper">
+            <img class="link-prof" src="./public/gaess.jpeg" alt="" />
+            <a class="link__text prof-text" href="">Profile</a>
+          </button>
+        </div>
+        <div class="sidebar__follows wrapper">
+          <hr class="blend-seperator" />
+          <span class="following">Following accounts</span>
+          <span class="acc-follow">Accounts you follow will appear here</span>
+          <hr class="blend-seperator" />
+        </div>
+        <button class="link__portal">
+          <img src="./public/portal.PNG" alt="" />
+        </button>
+        <img class="rewards" src="./public/rewards.PNG" alt="" />
+      </section>
+      <div class="sidebar__ver-sep"></div>
+      <section class="prof-sec">
+        <div class="prof__details wrapper">
+          <div class="details__img"></div>
+          <div class="details__user wrapper">
+            <h1 class="user__header tracking-tighter">ikeandrie</h1>
+            <h4 class="user__subheader">_gaes</h4>
+            <div class="user__edit wrapper">
+              <img class="edit__icon" src="./public/edit.PNG" alt="" />
+              <span class="edit__text">Edit profile</span>
+            </div>
+          </div>
+          <div class="hrl-block"></div>
+          <img class="details__share" src="./public/share.PNG" alt="" />
+        </div>
+        <div class="prof__info wrapper">
+          <div class="info__basic wrapper">
+            <span><strong>0</strong>&nbsp; Following</span>
+            <span><strong>0</strong>&nbsp; Followers</span>
+            <span><strong>0</strong>&nbsp; Likes</span>
+          </div>
+          <span class="info__bio">No bio yet.</span>
+        </div>
+        <div class="prof__tabs wrapper">
+          <button class="tabs__bttn">Videos</button>
+          <button class="tabs__bttn active">Favorites</button>
+          <button class="tabs__bttn">Liked</button>
+        </div>
+        <hr class="blend-seperator" />
+        <div class="vid-grid">
+          <div class="grid__box1">
+            <video autoplay muted loop>
+              <source src="./public/Snaptik.app_7140036251679264001.mp4" />
+            </video>
+            <svg
+              class="cursor"
+              id="Layer_1"
+              height="512"
+              viewBox="0 0 24 24"
+              width="512"
+              xmlns="http://www.w3.org/2000/svg"
+              data-name="Layer 1"
+              fill="currentColor"
+              stroke="black"
+              stroke-width="2"
+            >
+              <path
+                d="m13.278 23.979-4.2-8.24-5.078 4.477v-18.197a2 2 0 0 1 3.212-1.591l13.905 12.008-6.617.734 4.145 8.13z"
+              />
+            </svg>
+          </div>
+          <div class="grid__box2"></div>
+          <div class="grid__box3"></div>
+          <div class="grid__box"></div>
+          <div class="grid__box"></div>
+          <div class="grid__box"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>

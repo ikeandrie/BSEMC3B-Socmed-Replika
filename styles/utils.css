@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* border: red solid 2px; */
+}
+
+.wrapper {
+  display: flex;
+}
+
+/* block */
+.hrl-block {
+  flex-grow: 1;
+}
+
+.flex-2 {
+  flex-grow: 2;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+/* font utils */
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.blend-seperator {
+  border: 0.5px solid var(--clr-light2);
+  width: 100%;
+}

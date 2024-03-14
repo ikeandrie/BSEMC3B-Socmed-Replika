@@ -1,0 +1,78 @@
+:root {
+  --clr-dark: #0b0b0b;
+  --clr-dark2: #18181b;
+  --clr-text-blend: #717175;
+  --clr-light: #ffffff;
+  --clr-light2: #e2e2e7;
+
+  --size-xxs: 0.3em;
+  --size-xs: 0.5em;
+  --size-sm: 0.8em;
+  --size-base: 1rem;
+  --size-md: 1.3rem;
+  --size-lg: 1.5rem;
+  --size-xl: 2rem;
+  --size-2xl: 2.5rem;
+  --size-3xl: 3rem;
+  --size-4xl: 4rem;
+  --size-5xl: 5rem;
+  --size-6xl: 6rem;
+  --size-7xl: 7rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0, 5rem);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow: overlay;
+  height: 100vh;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: var(--clr-dark);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+strong {
+  color: var(--clr-dark);
+}

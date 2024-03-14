@@ -1,0 +1,93 @@
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: calc(var(--size-4xl) - 0.3rem);
+  padding: var(--size-xxs);
+  z-index: 999;
+  /* border: red solid 2px; */
+}
+
+.nav__logo {
+  height: var(--size-xl);
+  gap: 0.25rem;
+  align-items: baseline;
+  /* border: red solid 2px; */
+}
+
+.logo-icon {
+  height: calc(var(--size-xl) - 0.2rem);
+}
+
+.logo-text {
+  height: var(--size-md);
+}
+
+.nav__searchbar {
+  background-color: var(--clr-light2);
+  color: var(--clr-text-blend);
+  display: none;
+  align-items: center;
+  height: calc(var(--size-2xl) + 0.34rem);
+  width: 34%;
+  padding: var(--size-base);
+  border-radius: 99px;
+  /* border: red solid 2px; */
+}
+
+.searchbar__icon {
+  height: var(--size-md);
+}
+
+.nav__upload {
+  height: calc(var(--size-xl) + 0.25rem);
+  width: 7.3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.43rem;
+  margin-right: 0.8rem;
+  border: var(--clr-light2) solid 1px;
+}
+
+.upload__icon {
+  height: var(--size-lg);
+}
+
+.upload__text {
+  font-size: calc(var(--size-base) - 0.01rem);
+  font-weight: 600;
+}
+
+.nav__profile {
+  height: var(--size-xl);
+  align-items: center;
+  gap: 1.6rem;
+  padding: 0.5rem;
+  /* border: red solid 2px; */
+}
+
+.profile-messages {
+  height: var(--size-lg);
+}
+
+.profile-inbox {
+  height: calc(var(--size-md) + 0.06rem);
+  margin-top: 0.1rem;
+}
+
+.profile-pic {
+  background-image: url(../../public/gaess.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: var(--size-xl);
+  width: var(--size-xl);
+  border-radius: 99px;
+}
+
+/* lg */
+@media (width > 1024px) {
+  .nav__searchbar {
+    display: flex;
+  }
+}

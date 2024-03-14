@@ -1,0 +1,95 @@
+img{
+    display: block;
+}
+
+.container{
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.profile{
+    padding: 5rem 7rem;
+
+}
+
+.profile-img{
+    float: left;
+    display: flex; 
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.profile-name{
+    padding: 5rem 16rem;
+}
+
+
+
+.textcontainer{
+    display: flex;
+    margin-left: 10rem;
+}
+.textcontainerbot{
+   margin-left: 10rem;
+   margin-top: 10px;
+}
+
+.open-sans-toptext {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: bold;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-bottext {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.editprofile{
+    background-image: url("ee.png");
+    margin-left: 9rem;
+   margin-top: 10px;
+   cursor: pointer;
+  width: 180;
+  height: 50;
+  background-size: cover;
+
+}
+.editprofile:hover {
+   
+    background-image: url("e.png");
+  }
+
+  #edit-profile {  background-image: url("ee.png");
+    margin-left: 9rem;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    background-size: cover;
+  }
+  
+  #edit-profile:hover {  background-image: url("e.png");}
+
+  .textcontainerrestbot{
+    margin-top: 2rem;
+ }
+
+
+  .open-sans-resttext {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    font-variation-settings:
+      "wdth" 100;
+  }
