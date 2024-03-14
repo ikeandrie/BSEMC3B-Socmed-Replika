@@ -12,12 +12,12 @@
 }
 
 .details__img {
-  background-image: url(../../public/gaess.jpeg);
+  background-image: url(../../public/allen.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(var(--size-7xl) + 0.5rem);
-  width: var(--size-7xl);
+  width: calc(var(--size-7xl) + 0.5rem);
   border-radius: 99px;
   /* border: red solid 2px; */
 }
@@ -110,7 +110,7 @@
   display: grid;
   grid-template-columns: repeat(3, 12rem);
   grid-template-rows: repeat(2, 18rem);
-  gap: 4px;
+  gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 10rem;
   /* border: red solid 2px; */
@@ -122,12 +122,13 @@
 
 .grid__box1 {
   overflow: hidden;
+  border-radius: 6px;
 }
 
 .cursor {
   color: var(--clr-light);
   position: absolute;
-  bottom: 10rem;
+  bottom: 12rem;
   left: -1rem;
   height: var(--size-lg);
 }
@@ -137,6 +138,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 6px;
 }
 
 .grid__box3 {
@@ -144,10 +146,39 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 6px;
+}
+
+.grid__box4 {
+  background-image: url(../../public/lola.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.grid__box5 {
+  background-image: url(../../public/donna.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.grid__box6 {
+  background-image: url(../../public/allenwithdonna.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
 }
 
 @media (width > 1024px) {
   .cursor {
     left: 8rem;
+  }
+
+  .vid-grid {
+    grid-template-columns: repeat(auto-fill, 12rem);
   }
 }
